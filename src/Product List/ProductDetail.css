@@ -1,0 +1,101 @@
+.product-detail {
+    display: flex; /* Sử dụng flexbox để chia giao diện thành hai cột */
+    justify-content: center; /* Căn giữa các phần tử */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    width: 80%;
+    max-width: 1000px; /* Tăng kích thước khung chứa để có thêm không gian */
+    margin: 40px auto;
+    height: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 6px 12px rgba(7, 47, 225, 0.15);
+    padding-top: 60px; /* Chiều cao của header */
+  }
+  
+  .product-detail__image {
+    width: 40%; /* Điều chỉnh kích thước ảnh để không chiếm quá nhiều không gian */
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px; /* Tạo khoảng cách giữa ảnh và thông tin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-detail__info {
+    width: 60%; /* Thông tin chiếm phần còn lại của khung */
+    text-align: justify; /* Căn chỉnh lại các đoạn văn bản bên trái */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Căn giữa các phần tử theo chiều dọc */
+  }
+  
+  .product-detail__info h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-detail__info p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .product-detail__info .product-detail__description {
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .product-detail__info p span {
+    color: #ff6f61;
+    font-weight: bold;
+  }
+  
+  .product-detail__info .original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 1rem;
+  }
+  
+  .product-detail__info .sale-price {
+    color: #ff6f61;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+.button{
+    padding: 5px 10px;
+    background-color: #3a8df5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.cart-discount button:hover {
+    background-color: black;
+}
+@media (max-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(3, 1fr); /* 3 cột trên màn hình nhỏ */
+  }
+}
+
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 cột trên màn hình rất nhỏ */
+  }
+}
+
+@media (max-width: 480px) {
+  .product-list {
+    grid-template-columns: 1fr; /* 1 cột trên các thiết bị di động */
+  }
+}
+  

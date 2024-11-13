@@ -1,0 +1,124 @@
+/* Account.css */
+
+.account {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #9ad1ef;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .account h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-btn:hover {
+    background-color: #357ae8;
+  }
+  
+  .forgot-password-btn {
+    background: none;
+    border: none;
+    color: #4285f4;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .register-btn {
+    background: none;
+    border: none;
+    color: #4285f4;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .social-icon.google {
+    background-color: #db4437;
+  }
+  
+  .social-icon.facebook {
+    background-color: #3b5998;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social-icon.instagram {
+    background-color: #e4405f;
+  }
+  
+  .social-icon.x {
+    background-color: #1da1f2;
+  }
+  
