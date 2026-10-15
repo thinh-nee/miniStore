@@ -28,7 +28,7 @@ const ProductDetail = () => {
       id: 3,
       name: "Laptop HP Pavilion 15 eg2062TX i5 1235U/8GB/512GB/2GB MX550/Win11 (7C0W7PA)",
       description: "Chip Intel Gen 12 cân mọi tác vụ : Intel Core i5 1235U | GeForce MX550 2 GB Ngoại hình đơn giản, sang trọng: Dày 17.9 mm I Nặng 1.74 kg Hiển thị hình ảnh sắc nét, chân thực :15.6 inch | Full HD I BrightView | IPS Giải trí trọn vẹn với chất âm to rõ",
-      originalPrice: 14.490000,
+      originalPrice: 14490000,
       salePrice: 120000,
 
       imageUrl: "/images/image3.jpg", // Cập nhật ảnh
@@ -37,7 +37,7 @@ const ProductDetail = () => {
       id: 4,
       name: "Tai nghe TWS Samsung Galaxy Buds3 Pro R630N",
       description: "Phiên dịch trực tiếp.Thanh ánh sáng Blade Lights.Chống nước & bụi IP57.Sạc không dây.Tự động chuyển đổi kết nối linh hoạt (Auto Switch).Có mic thoại Sạc nhanh.",
-      originalPrice: 5.990000,
+      originalPrice: 5990000,
       salePrice: 120000,
 
       imageUrl: "/images/image4.jpg", // Cập nhật ảnh
@@ -55,7 +55,7 @@ const ProductDetail = () => {
       id: 6,
       name: "Laptop Lenovo Ideapad Slim 3 15IAH8 i5 12450H/16GB/512GB/Win11 (83ER000EVN)",
       description: "Laptop Lenovo Ideapad Slim 3 15IAH8 i5 12450H (83ER000EVN) một mẫu laptop học tập - văn phòng sở hữu cấu hình mạnh mẽ với con chip Intel dòng H, RAM 16 GB cùng đa dạng các công nghệ hiện đại, hứa hẹn sẽ mang đến cho người dùng những trải nghiệm sử dụng làm việc và giải trí đa phương tiện một cách tối ưu và đầy tiện nghi.",
-      originalPrice: 12.900000,
+      originalPrice: 12900000,
       salePrice: 120000,
 
       imageUrl: "/images/image6.jpg",
@@ -64,7 +64,7 @@ const ProductDetail = () => {
       id: 7,
       name: "iPhone 16 Plus 128GB",
       description: "IPhone 16 Plus được trang bị vi xử lý Apple A18, cho hiệu năng mạnh mẽ,đáp ứng tốt các tác vụ nặng.",
-      originalPrice: 25.600000,
+      originalPrice: 25600000,
       salePrice: 120000,
 
       imageUrl: "/images/image7.jpg",
@@ -91,7 +91,7 @@ const ProductDetail = () => {
       id: 10,
       name: "Laptop Acer Aspire 3 A315 44P R9W8 R7 5700U/8GB/512GB/Win11 (NX.KSJSV.002)",
       description: "Laptop Acer Aspire 3 A315-44P-R9W8 sở hữu cấu hình ấn tượng với R7-5700U cùng bộ nhớ RAM 8GB đa nhiệm ổn định cũng như ổ cứng SSD 512GB. Máy tính xách tay Acer này với màn hình 15.6 inch với tần số 60Hz hiển thị ổn định.",
-      originalPrice: 10.900000,
+      originalPrice: 10900000,
       salePrice: 120000,
 
       imageUrl: "/images/image10.jpg",
@@ -127,7 +127,7 @@ const ProductDetail = () => {
       id: 14,
       name: "Laptop HP 15 fd0303TU i3 1315U/8GB/512GB/Win11 (A2NL4PA)",
       description: "Nếu bạn đang tìm kiếm một chiếc laptop HP cơ bản để phục vụ cho việc học hoặc làm việc văn phòng đến thiết kế đồ họa nhẹ nhàng thì còn chần chừ gì nữa mà không tham khảo ngay laptop HP 15 fd0303TU i3 1315U (A2NL4PA). Sản phẩm này ngoại hình hiện đại, gọn gàng sẵn sàng đồng hành cùng bạn ở bất kì đâu.",
-      originalPrice: 11.800000,
+      originalPrice: 11800000,
       salePrice: 120000,
 
       imageUrl: "/images/image14.jpg",
@@ -136,17 +136,16 @@ const ProductDetail = () => {
       id: 15,
       name: "Điện thoại Samsung Galaxy S24 Ultra 5G 12GB/256GB",
       description: "Samsung S24 Ultra là siêu phẩm smartphone đỉnh cao mở đầu năm 2024 đến từ nhà Samsung với chip Snapdragon 8 Gen 3 For Galaxy mạnh mẽ, công nghệ tương lai Galaxy AI cùng khung viền Titan đẳng cấp hứa hẹn sẽ mang tới nhiều sự thay đổi lớn về mặt thiết kế và cấu hình.",
-      originalPrice: 28.000000,
+      originalPrice: 28000000,
       salePrice: 120000,
 
       imageUrl: "/images/image15.jpg",
     },
     
     
-    // Thêm các sản phẩm khác tại đây
   ];
 
-  // Tìm sản phẩm theo ID
+
   const product = products.find((p) => p.id === parseInt(id));
 
   return (

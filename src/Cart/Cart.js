@@ -173,7 +173,7 @@ const Cart = () => {
             type="radio"
             id="creditCard"
             name="paymentMethod"
-            value="Thẻ tí t\xedn dụng"
+            value="Thẻ tín dụng"
             checked={paymentMethod === "Thẻ tín dụng"}
             onChange={handlePaymentChange}
           />
